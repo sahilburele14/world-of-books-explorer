@@ -6,7 +6,10 @@ Explore over 7 million used books across categories like Fiction, Non-Fiction, C
 Platform	Link
 GitHub Pages	View on GitHub Pages
 Vercel --> https://world-of-books-explorer.vercel.app/
+
+
 ⚙️ Tech Stack
+
 https://img.shields.io/badge/React-19.0-blue?logo=react
 https://img.shields.io/badge/TypeScript-5.2-blue?logo=typescript
 https://img.shields.io/badge/Vite-6.0-purple?logo=vite
@@ -15,6 +18,7 @@ https://img.shields.io/badge/Gemini-Google%20GenAI-yellow?logo=google
 https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel
 
 📦 Features
+
 🔍 Category-based book browsing: Fiction, Non-Fiction, Children’s, Rare Books
 
 🧠 Gemini-powered scraping: Real-time product generation via Google GenAI
@@ -43,6 +47,7 @@ VITE_GEMINI_API_KEY=your_actual_key_here
 4. Run locally
 bash
 npm run dev
+
 🌐 Deployment
 GitHub Pages
 Uses HashRouter for routing
@@ -77,6 +82,7 @@ Run this to verify Gemini responses before deploy:
 
 bash
 npx ts-node testGemini.ts
+
 📁 Folder Structure
 Code
 src/
@@ -87,7 +93,9 @@ src/
 ├── index.tsx         → Entry point
 ├── constants.tsx     → Category metadata
 ├── vite-env.d.ts     → Env typing
+
+
 🙋‍♂️ Author
 Sahil Burele  
 Full Stack Developer | Nagpur, India
-Connect on LinkedIn (linkedin.com in Bing)
+
