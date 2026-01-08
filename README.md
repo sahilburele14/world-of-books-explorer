@@ -1,55 +1,93 @@
+📚 World of Books Explorer
+Production-minded book discovery app powered by Gemini AI and Vite.  
+Explore over 7 million used books across categories like Fiction, Non-Fiction, Children’s, and Rare Books — all styled with Tailwind and routed dynamically.
 
-# World of Books Explorer 📚
+🔗 Live Demo
+Platform	Link
+GitHub Pages	View on GitHub Pages
+Vercel --> https://world-of-books-explorer.vercel.app/
+⚙️ Tech Stack
+https://img.shields.io/badge/React-19.0-blue?logo=react
+https://img.shields.io/badge/TypeScript-5.2-blue?logo=typescript
+https://img.shields.io/badge/Vite-6.0-purple?logo=vite
+https://img.shields.io/badge/TailwindCSS-3.4-teal?logo=tailwindcss
+https://img.shields.io/badge/Gemini-Google%20GenAI-yellow?logo=google
+https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel
 
-A production-minded product exploration platform that simulates live scraping of World of Books (worldofbooks.com) using the Google Gemini API as an intelligent data agent.
+📦 Features
+🔍 Category-based book browsing: Fiction, Non-Fiction, Children’s, Rare Books
 
-## 🚀 Getting Started
+🧠 Gemini-powered scraping: Real-time product generation via Google GenAI
 
-### Prerequisites
-- Node.js (v18+)
-- NPM or Yarn
-- A Gemini API Key from [Google AI Studio](https://aistudio.google.com/)
+🧪 Mock fallback: Reliable mock data when API key is missing
 
-### Local Installation
-1. **Clone/Copy** the project files into a local directory.
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-3. **Environment Configuration**:
-   Create a `.env` file in the root directory:
-   ```env
-   API_KEY=your_gemini_api_key_here
-   ```
-4. **Run Development Server**:
-   ```bash
-   npm run dev
-   ```
+🛠️ Responsive UI: Tailwind CSS + Lucide icons
 
-## 🏗️ Architecture & Design Decisions
+🔄 Dynamic routing: React Router with HashRouter for GitHub Pages
 
-### Frontend
-- **React 19 & TypeScript**: Chosen for type safety and performance.
-- **Tailwind CSS**: Used for rapid, responsive UI development with a custom theme mimicking World of Books branding.
-- **Lucide React**: Provides a consistent, accessible iconography set.
-- **React Router (v7)**: Handles navigation for category drilldowns and product detail views.
+🌍 Dual deployment: GitHub Pages + Vercel
 
-### Scraping Strategy (Simulated)
-- **Gemini 3 Flash Agent**: Instead of a traditional scraper that might be blocked or brittle, we use Gemini 3 Flash to act as our "Scraping Backend." It generates structured JSON data based on real-world schemas found on worldofbooks.com.
-- **Deduplication & Caching**: The client-side history and category-fetching logic simulate the behavior of a production cache, reducing unnecessary API calls.
+🚀 Setup Instructions
+1. Clone the repo
+bash
+git clone https://github.com/sahilburele14/world-of-books-explorer.git
+cd world-of-books-explorer
+2. Install dependencies
+bash
+npm install
+3. Add environment variable
+Create .env.local:
 
-### Features
-- **Live Refetching**: Users can trigger an on-demand "scrape" to refresh category data.
-- **Browsing History**: Persisted in `localStorage` for a seamless cross-session experience.
-- **Responsive Skeletons**: Custom loading states ensure a smooth perceived performance (Lighthouse optimized).
+env
+VITE_GEMINI_API_KEY=your_actual_key_here
+4. Run locally
+bash
+npm run dev
+🌐 Deployment
+GitHub Pages
+Uses HashRouter for routing
 
-## 🌐 Deployment
+Set vite.config.ts:
 
-### Vercel / Netlify
-This project is Vite-based and can be deployed with one click.
-1. Push the code to a GitHub repository.
-2. Connect to Vercel/Netlify.
-3. **Crucial**: Add `API_KEY` to the project's Environment Variables in the provider's dashboard.
+ts
+base: '/world-of-books-explorer/'
+Add to package.json:
 
-## ⚠️ Ethical Note
-In a real production environment, this tool would use `Crawlee + Playwright` via a NestJS worker queue as specified in the backend requirements. This frontend implementation provides the high-fidelity UI and "on-demand" logic required by the assignment using AI-driven simulation for deployment simplicity.
+json
+"homepage": "https://sahilburele14.github.io/world-of-books-explorer",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+Deploy:
+
+bash
+npm run deploy
+Vercel
+Push repo to GitHub
+
+Import to vercel.com
+
+Add VITE_GEMINI_API_KEY in project settings
+
+Vercel auto-detects Vite → click Deploy
+
+🧪 Gemini Test Script
+Run this to verify Gemini responses before deploy:
+
+bash
+npx ts-node testGemini.ts
+📁 Folder Structure
+Code
+src/
+├── components/       → Reusable UI components
+├── pages/            → Route-based views
+├── services/         → Gemini API integration
+├── App.tsx           → Main router
+├── index.tsx         → Entry point
+├── constants.tsx     → Category metadata
+├── vite-env.d.ts     → Env typing
+🙋‍♂️ Author
+Sahil Burele  
+Full Stack Developer | Nagpur, India
+Connect on LinkedIn (linkedin.com in Bing)
