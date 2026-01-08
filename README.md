@@ -4,7 +4,7 @@ Explore over 7 million used books across categories like Fiction, Non-Fiction, C
 
 🔗 Live Demo
 Platform	Link
-GitHub Pages	View on GitHub Pages
+
 Vercel --> https://world-of-books-explorer.vercel.app/
 
 
