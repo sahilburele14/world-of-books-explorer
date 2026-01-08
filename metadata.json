@@ -1,0 +1,5 @@
+{
+  "name": "World of Books Explorer",
+  "description": "A production-minded platform for exploring and scraping products from World of Books, featuring real-time data simulation, category drilldowns, and detailed product views.",
+  "requestFramePermissions": []
+}
