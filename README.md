@@ -1,58 +1,58 @@
-📚 World of Books Explorer
-Production-minded book discovery app powered by Gemini AI and Vite.  
-Explore over 7 million used books across categories like Fiction, Non-Fiction, Children’s, and Rare Books — all styled with Tailwind and routed dynamically.
+# 📚 World of Books Explorer
 
-🔗 Live Demo
-Platform	Link
+A **production‑ready book discovery app** powered by **Google Gemini AI** and **Vite**.  
+Explore over **7 million used books** across categories like **Fiction, Non‑Fiction, Children’s, and Rare Books** — all styled with **TailwindCSS** and deployed seamlessly on **Vercel** and **GitHub Pages**.
 
-Vercel --> https://world-of-books-explorer.vercel.app/
+🔗 **Live Demo:** [world-of-books-explorer.vercel.app](https://world-of-books-explorer.vercel.app/)
 
+---
 
-⚙️ Tech Stack
+## 🚀 Tech Stack
 
-https://img.shields.io/badge/React-19.0-blue?logo=react
-https://img.shields.io/badge/TypeScript-5.2-blue?logo=typescript
-https://img.shields.io/badge/Vite-6.0-purple?logo=vite
-https://img.shields.io/badge/TailwindCSS-3.4-teal?logo=tailwindcss
-https://img.shields.io/badge/Gemini-Google%20GenAI-yellow?logo=google
-https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel
+- ![React](https://img.shields.io/badge/React-19.0-blue?logo=react)  
+- ![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue?logo=typescript)  
+- ![Vite](https://img.shields.io/badge/Vite-6.0-purple?logo=vite)  
+- ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-teal?logo=tailwindcss)  
+- ![Gemini](https://img.shields.io/badge/Gemini-Google%20GenAI-yellow?logo=google)  
+- ![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel)  
 
-📦 Features
+---
 
-🔍 Category-based book browsing: Fiction, Non-Fiction, Children’s, Rare Books
+## ✨ Features
 
-🧠 Gemini-powered scraping: Real-time product generation via Google GenAI
+- 🔍 **Category-based browsing**: Fiction, Non-Fiction, Children’s, Rare Books  
+- 🧠 **Gemini-powered scraping**: Real-time product generation via Google GenAI  
+- 🛠 **Mock fallback**: Reliable mock data when API key is missing  
+- 🎨 **Responsive UI**: TailwindCSS + Lucide icons  
+- 🔄 **Dynamic routing**: React Router with HashRouter for GitHub Pages  
+- 🌍 **Dual deployment**: GitHub Pages + Vercel  
 
-🧪 Mock fallback: Reliable mock data when API key is missing
+---
 
-🛠️ Responsive UI: Tailwind CSS + Lucide icons
+## ⚙️ Setup Instructions
 
-🔄 Dynamic routing: React Router with HashRouter for GitHub Pages
+ **Clone the repo**
+   ```bash
+   git clone https://github.com/sahilburele14/world-of-books-explorer.git
+   cd world-of-books-explorer
+   Install dependencies
 
-🌍 Dual deployment: GitHub Pages + Vercel
-
-🚀 Setup Instructions
-1. Clone the repo
-bash
-git clone https://github.com/sahilburele14/world-of-books-explorer.git
-cd world-of-books-explorer
-2. Install dependencies
 bash
 npm install
-3. Add environment variable
+Add environment variable
 Create .env.local:
 
 env
 VITE_GEMINI_API_KEY=your_actual_key_here
-4. Run locally
+Run locally
+
 bash
 npm run dev
-
 🌐 Deployment
 GitHub Pages
 Uses HashRouter for routing
 
-Set vite.config.ts:
+Update vite.config.ts:
 
 ts
 base: '/world-of-books-explorer/'
@@ -82,20 +82,32 @@ Run this to verify Gemini responses before deploy:
 
 bash
 npx ts-node testGemini.ts
-
-📁 Folder Structure
+📂 Folder Structure
 Code
 src/
-├── components/       → Reusable UI components
-├── pages/            → Route-based views
-├── services/         → Gemini API integration
-├── App.tsx           → Main router
-├── index.tsx         → Entry point
-├── constants.tsx     → Category metadata
-├── vite-env.d.ts     → Env typing
+ ├── components/   → Reusable UI components
+ ├── pages/        → Route-based views
+ ├── services/     → Gemini API integration
+ ├── App.tsx       → Main router
+ ├── index.tsx     → Entry point
+ ├── constants.tsx → Category metadata
+ └── vite-env.d.ts → Env typing
 
 
-🙋‍♂️ Author
+👨‍💻 Author
 Sahil Burele  
 Full Stack Developer | Nagpur, India
+
+💼 LinkedIn - https://www.linkedin.com/in/burelesahil/
+
+📧 sahilburele6789@gmail.com
+
+⭐ Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this repo and submit a PR.
+
+📜 License
+This project is licensed under the MIT License.
+
+This version is **structured, professional, and recruiter‑friendly**. It emphasizes your **Gemini AI integration, dual deployment, and clean folder structure**, while also giving clear setup instructions.  
 
