@@ -3,7 +3,7 @@
 A **production‑ready book discovery app** powered by **Google Gemini AI** and **Vite**.  
 Explore over **7 million used books** across categories like **Fiction, Non‑Fiction, Children’s, and Rare Books** — all styled with **TailwindCSS** and deployed seamlessly on **Vercel** and **GitHub Pages**.
 
-🔗 **Live Demo:** [world-of-books-explorer.vercel.app](https://world-of-books-explorer.vercel.app/)
+🔗 **Live Demo:**   https://world-of-books-explorer.vercel.app/
 
 ---
 
@@ -32,7 +32,7 @@ Explore over **7 million used books** across categories like **Fiction, Non‑Fi
 ## ⚙️ Setup Instructions
 
  **Clone the repo**
-   ```bash
+
    git clone https://github.com/sahilburele14/world-of-books-explorer.git
    cd world-of-books-explorer
    Install dependencies
@@ -82,8 +82,10 @@ Run this to verify Gemini responses before deploy:
 
 bash
 npx ts-node testGemini.ts
+
+
 📂 Folder Structure
-Code
+
 src/
  ├── components/   → Reusable UI components
  ├── pages/        → Route-based views
@@ -98,6 +100,8 @@ src/
 Sahil Burele  
 Full Stack Developer | Nagpur, India
 
+Live link: https://world-of-books-explorer.vercel.app/
+
 💼 LinkedIn - https://www.linkedin.com/in/burelesahil/
 
 📧 sahilburele6789@gmail.com
@@ -110,4 +114,14 @@ Feel free to fork this repo and submit a PR.
 This project is licensed under the MIT License.
 
 This version is **structured, professional, and recruiter‑friendly**. It emphasizes your **Gemini AI integration, dual deployment, and clean folder structure**, while also giving clear setup instructions.  
+
+Screenshot
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ce2e5ed-6b16-4f6c-a14f-6e2f66a8a953" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e7c62344-7d5e-413d-8f88-392d96a52da7" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bee94fff-f737-4875-9e29-f7683af25b23" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d37e39f3-7ef6-4767-90f8-860e016b4375" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c340fa57-e252-4714-8bfe-f5243826bb79" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/92916797-42ea-40dd-8ba2-10f0817f4235" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26bc8b4f-50ee-410e-81c1-512ba5fc414d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/92052fd4-b306-45ed-b02e-150a8aeedcfb" />
 
